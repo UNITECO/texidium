@@ -1,0 +1,193 @@
+body{
+    background-color: whitesmoke;
+    overflow-x: hidden;
+    margin: 0;
+    max-width: 100%;
+}
+
+
+header{
+    background: #00857C;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    color: white;
+    text-transform: uppercase; 
+}
+
+header .medido{
+    text-align: center;
+    align-items: center;
+    height: 60px;
+    width: 35%;
+    padding: 0% 8%;
+    display: flex;
+    overflow: hidden;
+    
+}
+
+header div img{
+    padding-top: 3px;
+    height: 54px;
+    cursor: pointer;
+}
+
+.a{
+    justify-content: flex-end;
+    width: 3cm;
+    cursor: pointer;
+    font-family: 'Arial', sans-serif;
+}
+
+input{
+    all: unset;
+}
+
+
+#gris{
+    height: 55px;
+    background-color: #47484a;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0px 10px 10px #00000052;
+}
+#gris img{
+    padding-top: 3px;
+    width: 98%;
+}
+.foto .user .wft{
+    padding: 0;
+    gap: 0;
+    margin: 0;
+    cursor: pointer;
+}
+
+.libros{
+    margin: 20px 8%;
+    display: flex;
+    overflow-x: hidden;
+}
+
+
+.libros img{
+    height: 240px;
+    margin: 0px 15px;
+    cursor: pointer;
+}
+
+.libros img:hover{
+    box-shadow: 0px 0px 12px #00857cbb;
+}
+
+footer{
+    background-color: #47484a;
+    width: 100%;
+}
+
+footer img{
+    max-width: 99%;
+}
+
+.pdf-container {
+    width: 90%;
+    height: 70vh; /* Ocupa toda la altura de la ventana */
+    overflow: auto;
+}
+
+
+
+.overlay {
+    display: none; /* Oculto por defecto */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 255, 255); /* Fondo oscuro semi-transparente */
+    z-index: 100; /* Capa superior */
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+
+
+
+
+.overlay .pdf-container {
+    justify-content: center;
+    align-items: center;
+    width: 91%;
+    height: 84%;
+    background-color: white;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.363);
+}
+
+.header {
+    background: #00857C;
+    width: 100%;
+    overflow: hidden;
+    height: 12%;
+    display: flex;
+    color: white;
+    text-transform: uppercase;
+    z-index: 999; 
+    position: fixed;
+    padding: 10px;
+}
+.header h4{
+    max-width: 30%;
+    margin: auto 20%;
+    
+}
+.CIRCULAR{
+    align-items: center;
+}
+.CIRCULAR img{
+    margin: 15.5%;
+    height: 65%;
+    width: auto;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+.footer{
+    background: #00857C;
+    width: 100%;
+    height: 12%;
+    display: flex;
+    color: white;
+    text-transform: uppercase;
+    z-index: 999; 
+    position: fixed;
+    text-align: center;
+    align-items: center;
+}
+.footer img{
+    max-width: 90%;
+}
+
+/* 
+@media (max-width: 700px) { 
+
+
+    header .medido{
+        text-align: center;
+        align-items: center;
+        height: 60px;
+        width: 35%;
+        padding: 0% 8%;
+        display: flex;
+        overflow: hidden;
+    }
+
+    .menu{
+        padding-top: 3px;
+        min-height: 54px;
+        cursor: pointer;
+    }
+
+} */
